@@ -6,7 +6,7 @@
     font-display: swap;
     font-style: normal;
     font-named-instance: 'Regular';
-    src: url("./Montserrat-Regular.woff2?v=3.19") format("woff2");
+    src: url("./Montserrat-Regular.woff2") format("woff2");
 }
 
 *, *::before, *::after { box-sizing: border-box}
@@ -20,7 +20,38 @@ img, picture { max-width: 100%; display: block; }
 input, button, textarea, select { font: inherit; }
 strong { font-weight: 900; }
 
+/******************************************/
 
+.Container { background: grey; height: 200vh; }
+    .Header { display: flex; position: sticky; top: 0; background: white;
+         box-shadow: 0 1em 1em rgba(0,0,0,0.1); }
+        .Logo {  }
+            .LogoImage {  }
+        .TriggerButton {  }
+            .SearchTrigger {  }
+            .MenuTrigger {  }
+            .CartTrigger {  }
+                .TriggerImage {  }
+                    .SearchTriggerImage {  }
+                    .MenuTriggerImage {  }
+                    .CartTriggerImage {  }
+        .SearchForm { display: none; }
+            .Fieldset {  }
+                .Legend {  }
+                    .SearchLabel {  }
+                        .SearchLabelText {  }
+                        .Input {  }
+                            .SearchInput {  }
+        .MainMenu { display: none; }
+            .MainMenuItem {  }
+                .MainMenuLink {  }
+                .MainMenuSublist {  }
+                    .MainMenuSubitem {  }
+                        .MainMenuSublink {  }
+    .Main {  }
+    .Footer {  }
+
+/******************************************/
 
 
 @media (prefers-reduced-motion: reduce) {
