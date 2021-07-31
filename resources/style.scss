@@ -12,7 +12,7 @@
 *, *::before, *::after { box-sizing: border-box}
 
 html {font-family: Montserrat, Trebuchet, sans-serif;
-    font-size: 24px; line-height: 1.5em;
+    font-size: 16px; line-height: 1.5em;
 }
 
 body { display: block; min-height: 100vh; margin: 0; text-rendering: optimizeSpeed;}
@@ -27,7 +27,7 @@ strong { font-weight: 900; }
          box-shadow: 0 1em 1em rgba(0,0,0,0.1); }
         .Logo {  }
             .LogoImage {  }
-        .TriggerButton {  }
+        .TriggerButton { display: block; width:2em;height:2em; }
             .SearchTrigger {  }
             .MenuTrigger {  }
             .CartTrigger {  }
