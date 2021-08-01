@@ -23,11 +23,13 @@ strong { font-weight: 900; }
 /******************************************/
 
 .Container { background: grey; height: 200vh; }
-    .Header { display: flex; position: sticky; top: 0; background: white;
+    .Header { display: flex; height: 44px; position: sticky; top: 0; background: white;
          box-shadow: 0 1em 1em rgba(0,0,0,0.1); }
-        .Logo {  }
-            .LogoImage {  }
-        .TriggerButton { display: block; width:2em;height:2em; }
+        .Logo { display: block; height: 60px; position: relative; background: #799900;
+        padding: 0; }
+            .LogoImage { display: block; }
+        .TriggerButton { display: block; width:2em;height:2em;
+        padding: 0; border: none; background: transparent;}
             .SearchTrigger {  }
             .MenuTrigger {  }
             .CartTrigger {  }
