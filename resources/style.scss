@@ -25,9 +25,11 @@ strong { font-weight: 900; }
 .Container { background: grey; height: 200vh; }
     .Header { display: flex; position: sticky; top: 0; background: white;
          box-shadow: 0 1em 1em rgba(0,0,0,0.1); }
-        .Logo {  }
+        .Logo { display: block; background: #799900;
+        padding: 0.5em; }
             .LogoImage {  }
-        .TriggerButton { display: block; width:2em;height:2em; }
+        .TriggerButton { display: block; width:2em;height:2em;
+        padding: 0; border: none; background: transparent;}
             .SearchTrigger {  }
             .MenuTrigger {  }
             .CartTrigger {  }
