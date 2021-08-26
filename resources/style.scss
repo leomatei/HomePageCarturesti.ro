@@ -44,14 +44,13 @@ strong { font-weight: 900; }
                         .SearchLabelText {  }
                         .Input {  }
                             .SearchInput {  }
-        .MainMenuContainer {  }
-            .MainMenu { display: none; }
-            .MainMenuContainer:hover .MainMenu{ display:block; }
-                .MainMenuItem {  }
-                    .MainMenuLink {  }
-                    .MainMenuSublist {  }
-                        .MainMenuSubitem {  }
-                            .MainMenuSublink {  }
+        .MainMenu { display: none; }
+        .MenuTrigger:active + .MainMenu, .MenuTrigger:focus + .MainMenu { display: block;}
+            .MainMenuItem {  }
+                .MainMenuLink {  }
+                .MainMenuSublist {  }
+                    .MainMenuSubitem {  }
+                        .MainMenuSublink {  }
         .Main {  }
     .Footer {  }
 
