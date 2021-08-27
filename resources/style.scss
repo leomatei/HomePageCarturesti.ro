@@ -36,17 +36,21 @@ strong { font-weight: 900; }
             .SearchTrigger {  }
             .MenuTrigger {  }
             .CartTrigger {  }
-                .TriggerImage { display:block; width: 2em; height: 2em;}
+                .TriggerImage { display:block; width: 2em; height: 2em; }
                     .SearchTriggerImage {  }
                     .MenuTriggerImage {  }
                     .CartTriggerImage {  }
-        .SearchForm { flex-grow:1;}
-            .Fieldset { display: block; padding: 0; border: none; }
+        .SearchForm { flex-grow: 1; padding: 0.1875rem; }
+            .Fieldset { display: block; padding: 0; border: none; position: relative; }
                 .Legend {  }
-                    .SearchLabel {  }
-                        .SearchLabelText {  }
-                        .Input {  }
-                            .SearchInput {  }
+                    .Label { display: block; }
+                        .SearchLabel {  }
+                            .SearchLabelText {  }
+                            .Input { display: block; width: 100%; height: 2.375rem; line-height: 2rem; }
+                                .SearchInput {  }
+                    .SubmitButton {  }
+                        .SearchSubmit { display: block; position: absolute; right: 0; top: 0; bottom: 0; }
+                            .SearchSubmitImage { display:block; width: 2em; height: 2em; }
         .MainMenu { display: none; position: absolute; top: 3.75rem; right: 0; bottom: 0; left: 0; }
         .MenuTrigger:active + .MainMenu, .MenuTrigger:focus + .MainMenu { display: block;}
             .MainMenuItem {  }
