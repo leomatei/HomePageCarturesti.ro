@@ -20,6 +20,9 @@ img, picture { max-width: 100%; display: block; }
 input, button, textarea, select { font: inherit; }
 strong { font-weight: 900; }
 
+.ScreenReaders{ border: 0; clip: rect( 0, 0, 0, 0); height: 1px; margin: -1px;
+    overflow: hidden; padding: 0; position: absolute; width: 1px; } 
+
 /******************************************/
 
 .Container { background: grey; height: 200vh; }
@@ -37,14 +40,14 @@ strong { font-weight: 900; }
                     .SearchTriggerImage {  }
                     .MenuTriggerImage {  }
                     .CartTriggerImage {  }
-        .SearchForm { display: none; }
-            .Fieldset {  }
+        .SearchForm { flex-grow:1;}
+            .Fieldset { display: block; padding: 0; border: none; }
                 .Legend {  }
                     .SearchLabel {  }
                         .SearchLabelText {  }
                         .Input {  }
                             .SearchInput {  }
-        .MainMenu { display: none; }
+        .MainMenu { display: none; position: absolute; top: 3.75rem; right: 0; bottom: 0; left: 0; }
         .MenuTrigger:active + .MainMenu, .MenuTrigger:focus + .MainMenu { display: block;}
             .MainMenuItem {  }
                 .MainMenuLink {  }
