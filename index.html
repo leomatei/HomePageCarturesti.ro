@@ -354,38 +354,75 @@
         </nav>
       </header>
       <main class="Main">
-        <ul class="Slider">
-          <li class="SliderItem">
-            <a href="#" class="SliderLink">
-              <img src="" alt="" class="SliderImage"
-              title="Vezi articolul despre X @TODO">
-            </a>
-          </li>
-          <li class="SliderItem">
-            <a href="#" class="SliderLink">
-              <img src="" alt="" class="SliderImage"
-              title="Vezi articolul despre X @TODO">
-            </a>
-          </li>
-          <li class="SliderItem">
-            <a href="#" class="SliderLink">
-              <img src="" alt="" class="SliderImage"
-              title="Vezi articolul despre X @TODO">
-            </a>
-          </li>
-          <li class="SliderItem">
-            <a href="#" class="SliderLink">
-              <img src="" alt="" class="SliderImage"
-              title="Vezi articolul despre X @TODO">
-            </a>
-          </li>
-          <li class="SliderItem">
-            <a href="#" class="SliderLink">
-              <img src="" alt="" class="SliderImage"
-              title="Vezi articolul despre X @TODO">
-            </a>
-          </li>
-        </ul>
+        <section class="Slider">
+          <ul class="SliderList">
+            <li class="SliderItem">
+              <a href="#" class="SliderLink">
+                <picture class="SliderImage">
+                <source type="image/webp" srcset="
+                ./images/slider-img-1-mobile.webp 525w,
+                ./images/slider-img-1.webp 1170w"
+                sizes="
+                (min-width: 749px) 525px,
+                (min-width: 750px) 1170px"/>
+                <img srcset="
+                ./images/slider-img-1-mobile.png 525w,
+                ./images/slider-img-1.png 1170w" 
+                sizes="
+                (min-width: 749px) 525px,
+                (min-width: 750px) 1170px"
+                src="/images/slider-img-1-mobile.png"
+                alt="Imagine despre @TODO" 
+                title="Vezi articolul despre X @TODO"
+                loading="lazy" decoding="async" width="525" height="300" itemprop="image"/>
+              </picture>
+              </a>
+            </li>
+            <li class="SliderItem">
+              <a href="#" class="SliderLink">
+                <picture class="SliderImage">
+                <source type="image/webp" srcset="
+                ./images/slider-img-1-mobile.webp 525w,
+                ./images/slider-img-1.webp 1170w"
+                sizes="
+                (min-width: 749px) 525px,
+                (min-width: 750px) 1170px"/>
+                <img srcset="
+                ./images/slider-img-1-mobile.png 525w,
+                ./images/slider-img-1.png 1170w" 
+                sizes="
+                (min-width: 749px) 525px,
+                (min-width: 750px) 1170px"
+                src="/images/slider-img-1-mobile.png"
+                alt="Imagine despre @TODO" 
+                title="Vezi articolul despre X @TODO"
+                loading="lazy" decoding="async" width="525" height="300" itemprop="image"/>
+              </picture>
+              </a>
+            </li>
+            <li class="SliderItem">
+              <a href="#" class="SliderLink">
+                <img src="" alt="" class="SliderImage"
+                title="Vezi articolul despre X @TODO">
+              </a>
+            </li>
+            <li class="SliderItem">
+              <a href="#" class="SliderLink">
+                <img src="" alt="" class="SliderImage"
+                title="Vezi articolul despre X @TODO">
+              </a>
+            </li>
+            <li class="SliderItem">
+              <a href="#" class="SliderLink">
+                <img src="" alt="" class="SliderImage"
+                title="Vezi articolul despre X @TODO">
+              </a>
+            </li>
+          </ul>
+          <nav class="SliderControls">
+            
+          </nav>
+        </section>
       </main>
       <footer class="Footer"></footer>
     </div>
