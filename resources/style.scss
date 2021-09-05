@@ -33,7 +33,7 @@ strong { font-weight: 900; }
 
 /******************************************/
 
-.Container { background: grey; height: 200vh; }
+.Container { }
     .Header { display: flex; height: 2.75rem; position: sticky; top: 0; background: white;
     box-shadow: 0 1em 1em rgba(0,0,0,0.1); }
         .Logo { display: block; height: 3.75rem; position: relative; z-index: 1; background: #799900;
@@ -82,6 +82,23 @@ strong { font-weight: 900; }
                             color: #222; background: transparent; 
                                 &:hover{ color: #799900; background: white; }}
         .Main {  }
+            .Slider { display: block; position: relative; }
+                .SliderList { display: block; margin: 0; padding: 0; position: relative; }
+                    .SliderItem { display: none; 
+                        &.Active { display: block; }
+                    }
+                        .SliderLink { display: block; }
+                            .SliderImage { display: block; }
+                                .SliderImage img { display: block; width: 100%; height: auto;}
+                .SliderControls { display: block; position: absolute; top: 0; right: 0; left: 0; }
+                    .SliderArrows { display: block; position: absolute; top: 10vw; }
+                        .SliderPrev {  }
+                        .SliderNext {  }
+                            .SliderArrowImage {  }
+                    .SliderPicker { display: block; position: absolute; }
+                        .SliderPickerItem {  }
+                            .SliderPickerLink {  }
+                                .SliderPickerText {  }               
     .Footer {  }
 
 /******************************************/

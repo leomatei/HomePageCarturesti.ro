@@ -179,8 +179,17 @@
       </header>
       <main class="Main">
         <section class="Slider">
-          <ul class="SliderList">
+          <ol class="SliderList">
             <li class="SliderItem">
+              <a href="#" class="SliderLink">
+                <picture class="SliderImage">
+                  <source type="image/webp" srcset="./images/slider-img-1.webp" media="(min-width: 750px)" />
+									<source type="image/webp" srcset="./images/slider-img-1-mobile.webp" media="(min-width: 100px)" />
+									<img src="./images/slider-img-1-mobile.png" alt="Imagine despre Ticket to Ride Europe" width="525" height="300" itemprop="image" />
+              </picture>
+              </a>
+            </li>
+            <li class="SliderItem Active">
               <a href="#" class="SliderLink">
                 <picture class="SliderImage">
                 <source type="image/webp" srcset="
@@ -202,50 +211,118 @@
               </picture>
               </a>
             </li>
-            <li class="SliderItem">
-              <a href="#" class="SliderLink">
-                <picture class="SliderImage">
-                <source type="image/webp" srcset="
-                ./images/slider-img-1-mobile.webp 525w,
-                ./images/slider-img-1.webp 1170w"
-                sizes="
-                (min-width: 749px) 525px,
-                (min-width: 750px) 1170px"/>
-                <img srcset="
-                ./images/slider-img-1-mobile.png 525w,
-                ./images/slider-img-1.png 1170w" 
-                sizes="
-                (min-width: 749px) 525px,
-                (min-width: 750px) 1170px"
-                src="/images/slider-img-1-mobile.png"
-                alt="Imagine despre @TODO" 
-                title="Vezi articolul despre X @TODO"
-                loading="lazy" decoding="async" width="525" height="300" itemprop="image"/>
-              </picture>
-              </a>
-            </li>
-            <li class="SliderItem">
-              <a href="#" class="SliderLink">
-                <img src="" alt="" class="SliderImage"
-                title="Vezi articolul despre X @TODO">
-              </a>
-            </li>
-            <li class="SliderItem">
-              <a href="#" class="SliderLink">
-                <img src="" alt="" class="SliderImage"
-                title="Vezi articolul despre X @TODO">
-              </a>
-            </li>
-            <li class="SliderItem">
-              <a href="#" class="SliderLink">
-                <img src="" alt="" class="SliderImage"
-                title="Vezi articolul despre X @TODO">
-              </a>
-            </li>
-          </ul>
+          </ol>
           <nav class="SliderControls">
-            <a class="SliderArrows SliderPrev" href="#" title="Revino la imaginea precedentă"></a>
-            <a class="SliderArrows SliderNext" href="#" title="Mergi la imaginea următoare"></a>
+            <a class="SliderArrows SliderPrev" href="#" title="Revino la imaginea precedentă">
+              <img src="./resources/icon-arrow.svg" class="SliderArrowImage" alt="Imaginea precedenta"
+              width="44" height="55"/>
+            </a>
+            <a class="SliderArrows SliderNext" href="#" title="Mergi la imaginea următoare">
+              <img src="./resources/icon-arrow.svg" class="SliderArrowImage" alt="Imaginea următoare"
+              width="44" height="55"/>
+            </a>
+            <ol class="SliderPicker">
+              <li class="SliderPickerItem">
+                <a href="#" class="SliderPickerLink" title="Mergi la imaginea @TODO">
+                  <span class="SliderPickerText">Imaginea @TODO</span>
+                </a>
+              </li>
+              <li class="SliderPickerItem">
+                <a href="#" class="SliderPickerLink" title="Mergi la imaginea @TODO">
+                  <span class="SliderPickerText">Imaginea @TODO</span>
+                </a>
+              </li>
+              <li class="SliderPickerItem">
+                <a href="#" class="SliderPickerLink" title="Mergi la imaginea @TODO">
+                  <span class="SliderPickerText">Imaginea @TODO</span>
+                </a>
+              </li>
+              <li class="SliderPickerItem">
+                <a href="#" class="SliderPickerLink" title="Mergi la imaginea @TODO">
+                  <span class="SliderPickerText">Imaginea @TODO</span>
+                </a>
+              </li>
+              <li class="SliderPickerItem">
+                <a href="#" class="SliderPickerLink" title="Mergi la imaginea @TODO">
+                  <span class="SliderPickerText">Imaginea @TODO</span>
+                </a>
+              </li>
+              <li class="SliderPickerItem">
+                <a href="#" class="SliderPickerLink" title="Mergi la imaginea @TODO">
+                  <span class="SliderPickerText">Imaginea @TODO</span>
+                </a>
+              </li>
+              <li class="SliderPickerItem">
+                <a href="#" class="SliderPickerLink" title="Mergi la imaginea @TODO">
+                  <span class="SliderPickerText">Imaginea @TODO</span>
+                </a>
+              </li>
+              <li class="SliderPickerItem">
+                <a href="#" class="SliderPickerLink" title="Mergi la imaginea @TODO">
+                  <span class="SliderPickerText">Imaginea @TODO</span>
+                </a>
+              </li>
+              <li class="SliderPickerItem">
+                <a href="#" class="SliderPickerLink" title="Mergi la imaginea @TODO">
+                  <span class="SliderPickerText">Imaginea @TODO</span>
+                </a>
+              </li>
+              <li class="SliderPickerItem">
+                <a href="#" class="SliderPickerLink" title="Mergi la imaginea @TODO">
+                  <span class="SliderPickerText">Imaginea @TODO</span>
+                </a>
+              </li>
+              <li class="SliderPickerItem">
+                <a href="#" class="SliderPickerLink" title="Mergi la imaginea @TODO">
+                  <span class="SliderPickerText">Imaginea @TODO</span>
+                </a>
+              </li>
+              <li class="SliderPickerItem">
+                <a href="#" class="SliderPickerLink" title="Mergi la imaginea @TODO">
+                  <span class="SliderPickerText">Imaginea @TODO</span>
+                </a>
+              </li>
+              <li class="SliderPickerItem">
+                <a href="#" class="SliderPickerLink" title="Mergi la imaginea @TODO">
+                  <span class="SliderPickerText">Imaginea @TODO</span>
+                </a>
+              </li>
+              <li class="SliderPickerItem">
+                <a href="#" class="SliderPickerLink" title="Mergi la imaginea @TODO">
+                  <span class="SliderPickerText">Imaginea @TODO</span>
+                </a>
+              </li>
+              <li class="SliderPickerItem">
+                <a href="#" class="SliderPickerLink" title="Mergi la imaginea @TODO">
+                  <span class="SliderPickerText">Imaginea @TODO</span>
+                </a>
+              </li>
+              <li class="SliderPickerItem">
+                <a href="#" class="SliderPickerLink" title="Mergi la imaginea @TODO">
+                  <span class="SliderPickerText">Imaginea @TODO</span>
+                </a>
+              </li>
+              <li class="SliderPickerItem">
+                <a href="#" class="SliderPickerLink" title="Mergi la imaginea @TODO">
+                  <span class="SliderPickerText">Imaginea @TODO</span>
+                </a>
+              </li>
+              <li class="SliderPickerItem">
+                <a href="#" class="SliderPickerLink" title="Mergi la imaginea @TODO">
+                  <span class="SliderPickerText">Imaginea @TODO</span>
+                </a>
+              </li>
+              <li class="SliderPickerItem">
+                <a href="#" class="SliderPickerLink" title="Mergi la imaginea @TODO">
+                  <span class="SliderPickerText">Imaginea @TODO</span>
+                </a>
+              </li>
+              <li class="SliderPickerItem">
+                <a href="#" class="SliderPickerLink" title="Mergi la imaginea @TODO">
+                  <span class="SliderPickerText">Imaginea @TODO</span>
+                </a>
+              </li>
+            </ol>
           </nav>
         </section>
       </main>
