@@ -90,17 +90,20 @@ strong { font-weight: 900; }
                         .SliderLink { display: block; }
                             .SliderImage { display: block; }
                                 .SliderImage img { display: block; width: 100%; height: auto;}
-                .SliderControls { display: block; position: absolute; top: 0; right: 0; left: 0; }
-                    .SliderArrows { display: block; position: absolute; top: 10vw; }
+                .SliderControls { display: block; position: absolute; 
+                top: 0; right: 0; left: 0; bottom: 0; }
+                    .SliderArrows { display: block; position: absolute; top: 10vw; z-index:1; }
                         .SliderPrev { left:0; }
                         .SliderNext { right: 0; }
                             .SliderArrowImage { display: block; width: clamp(3rem,5vw,5rem); height: auto; }
                             .SliderPrev .SliderArrowImage { transform: rotate(180deg) }
-                    .SliderPicker { display: flex; position: absolute; flex-direction: row; flex-wrap: nowrap;
-                    max-width: 100vw; overflow: auto; padding: 0; margin: 0; top: 34.18vw;}
+                    .SliderPicker { display: flex; flex-direction: row; flex-wrap: nowrap;
+                    max-width: 100vw; overflow: auto; padding: 0; margin: 0; position: absolute; bottom: -3rem;
+                    list-style: none; }
                         .SliderPickerItem {  }
-                            .SliderPickerLink {  }
-                                .SliderPickerText {  }               
+                            .SliderPickerLink { display: block; width: 3em; height: 3em; background: magenta; }
+                                .SliderPickerText { display: block; width: 0; white-space: nowrap;
+                            overflow: hidden; }               
     .Footer {  }
 
 /******************************************/
